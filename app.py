@@ -107,7 +107,7 @@ st.set_page_config(page_title="CLV Dashboard", layout="wide")
 set_bg("Bg.png")  # use your image path
 
 # ================= LOAD MODELS =================
-reg_model = joblib.load('clv_regression_model.pkl')
+reg_model = joblib.load('clv_regression_model1.pkl')
 clf_model = joblib.load('clv_classification_model.pkl')
 
 # ================= TITLE =================
